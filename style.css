@@ -71,7 +71,7 @@ main ul{
     gap: 10px;
 }
 main li{
-    background-color: #f78a55;
+    background-color: #064789;
     color: #fff;
     border-radius: 10px;
     padding: 20px 10px;
@@ -89,10 +89,10 @@ main ul li i{
     display: block!important;
 }
 main li:nth-child(2){
-    background-color: #b56291;
+    background-color: #d62828;
 }
 main li:nth-child(3){
-    background-color: #48567b;
+    background-color: #f77f00;
 }
 main.error{
     animation: errorEffect 0.3s linear 1;
