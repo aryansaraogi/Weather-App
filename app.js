@@ -91,7 +91,7 @@ const searchWeather = () => {
 };
 
 const initApp = () => {
-    const lastLocation = localStorage.getItem('lastLocation') || 'Washington,US';
+    const lastLocation = localStorage.getItem('lastLocation') || 'Delhi,India';
     valueSearch.value = lastLocation;
     searchWeather();
 };
