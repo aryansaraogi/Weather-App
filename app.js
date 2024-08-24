@@ -1,6 +1,6 @@
 const API_KEY = '9505fd1df737e20152fbd78cdb289b6a';
 const BASE_URL = 'https://api.openweathermap.org/data/2.5/weather?units=metric&appid=' + API_KEY;
-const GEO_URL = 'http://api.openweathermap.org/geo/1.0/direct?appid=' + API_KEY;
+const GEO_URL = 'https://api.openweathermap.org/geo/1.0/direct?appid=' + API_KEY;
 
 let city = document.querySelector('.name');
 let form = document.querySelector("form");
